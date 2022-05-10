@@ -1,0 +1,59 @@
+
+.hidden{
+    display:none;
+}
+body{
+    display:flex;
+    flex-direction: column;
+}
+img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity:0.9;
+}
+input{
+    width:200px;
+}
+.quest{
+    position:absolute;
+    right:0;
+    top:0;
+}
+#press{
+    color:white;
+    font-size:20px;
+}
+.quest__content{
+    display: none;
+}
+.quest__content.active{
+    display:block;
+    color:white;
+}
+#contents{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#clock{
+    color:white;
+    font-size:50px;
+}
+#login-form{
+    color:white;
+}
+#quote{
+    font-size:20px;
+    text-align: center;
+    color:white;
+}
+#weather{
+    position:absolute;
+    font-size:30px;
+}
+

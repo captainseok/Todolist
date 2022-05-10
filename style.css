@@ -55,6 +55,15 @@ input{
 }
 #weather{
     position:absolute;
+    top:0px;
+    right:0px;
     font-size:30px;
+    color:white;
+}
+li{
+    list-style: none;
 }
 
+@media screen and (max-width:768px){
+
+}

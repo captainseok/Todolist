@@ -44,4 +44,5 @@ if(savedUsername === null){
 }
 else{
     paintGreetings(savedUsername);
+    logout.classList.remove('hidden');
 }
